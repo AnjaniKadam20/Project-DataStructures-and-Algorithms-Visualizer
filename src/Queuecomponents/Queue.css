@@ -1,0 +1,113 @@
+/* Queue.css */
+
+.queue-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Occupy full viewport height */
+  background: linear-gradient(to bottom, #b1abde, #7ac5ff); /* Gradient background from top */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #011829;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.queue-container {
+  display: flex;
+  flex-direction: column-reverse; /* Stack queue items from bottom to top */
+  align-items: center; /* Center horizontally */
+  width: 100%; /* Occupy full width */
+}
+
+.queue-box {
+  padding: 5px;
+  margin-bottom: 3px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  width: 10%; /* Set width to occupy 80% of the container */
+  text-align: center; /* Center text horizontally */
+ /* Center text horizontally */
+}
+
+.transition {
+  transition: background-color 0.3s ease;
+}
+
+.paragraph2 {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000; /* Example color */
+  font-family: Arial, sans-serif;
+  font-size: 25px !important;
+  font-weight:bolder!important;
+}
+
+.next-line-text4 {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  font-size: 18px !important;
+  font-weight:lighter !important;
+  color: #333; /* Example color */
+  font-family: Arial, sans-serif;
+}
+
+.next-line-text5{
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  font-size: 18px !important;
+  font-weight: lighter !important;
+  color: #333; /* Example color */
+  font-family: Arial, sans-serif
+
+}
+
+.next-line-text6{
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  font-size: 18px!important;
+  font-weight: lighter!important;
+  color: #333; /* Example color */
+  font-family: Arial, sans-serif
+
+}
+.navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure navbar is above other content */
+  display:flex;
+  
+}
+
+  

@@ -1,0 +1,116 @@
+/* Stack.css */
+
+
+.stack-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #b1abde, #7ac5ff);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; /* Center horizontally */
+}
+
+.input-box {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc; /* Add border for input box */
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: column; /* Stack grows downwards */
+  align-items: center; /* Center horizontally */
+  width: 100%; /* Occupy full width */
+  padding: 20px;
+}
+
+.stack-box {
+  padding: 5px;
+  margin-bottom: 3px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  width: 10%; /* Set width to occupy 80% of the container */
+  text-align: center; /* Center text horizontally */
+}
+
+.transition {
+  animation: slideDown 0.3s ease-in-out; /* Animation applied to transition */
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px); /* Initial position above final position */
+    opacity: 0; /* Fade in effect */
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.paragraph1 {
+  position: absolute;
+  top: 70px !important;
+  left: 10px;
+  font-size: 25px !important;
+  font-weight:bolder !important;
+  color: #000000; /* Example color */
+}
+.next-line-text1 {
+  position: absolute;
+  top: 110px !important;
+  left: 10px;
+  font-size: 18px !important;
+  font-weight: lighter !important;
+  color: #333; /* Example color */
+  font-family: Arial, sans-serif;
+}
+
+.next-line-text2 {
+  position: absolute;
+  top: 180px !important;
+  left: 10px;
+  font-size: 18px !important;
+  font-weight: lighter !important;
+  /* Example color */
+  font-family: Arial, sans-serif;
+}
+
+.next-line-text3{
+  position: absolute;
+  top: 210px !important;
+  left: 10px;
+  font-size: 18px !important;
+  font-weight: lighter !important;
+  /* Example color */
+  font-family: Arial, sans-serif;
+
+}
+
+

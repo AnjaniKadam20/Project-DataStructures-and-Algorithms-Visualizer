@@ -1,0 +1,15 @@
+.input-box {
+    width: 300px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-right: 10px; /* Add margin to separate from buttons */
+  }
+  
+  .button {
+    width: 120px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #53afc8;
+    color: white;
+    margin-right: 10px; /* Add margin to separate from other button */
+  }
